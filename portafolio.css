@@ -1,0 +1,73 @@
+body {
+    background: url('noche.png') no-repeat center center fixed;
+    background-size: cover;
+        /* Asegura que no hay margen alrededor del cuerpo */
+        margin: 0;
+        /* Fuerza al cuerpo a ocupar toda la ventana del navegador */
+        height: 100vh;
+        /* Establece una imagen como fondo, y escala la imagen para cubrir toda el área */
+    }
+    #titulo {
+        font-size: 28px;
+        font-weight: bold;
+        color: #135c85;
+        text-align:left;
+        margin-bottom: 10px;
+    }
+p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: start;
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 1.8cm;
+    text-align: center;
+    text-indent: 20px; /* Establece una sangría de 20 píxeles */
+    line-height: 1.8;
+}
+
+.contenedor {
+    display: flex; /* Disposición horizontal */
+    gap: 30px; /* Espacio entre círculos */
+    position: absolute;
+    top:3px ;
+    right:3px;}
+.circulo {
+    width: 65px; /* Ancho del círculo */
+    height: 65px; /* Altura del círculo */
+    border-radius: 45%; /* Hace el círculo redondo */
+    background-color: #38a1bc; /* Color de fondo del círculo */
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    margin: 15px; /* Espaciado entre círculos */ 
+}
+.circulo:hover {
+    transform: scale(1.4); /* Aumenta el tamaño al pasar el ratón */
+}
+a {
+    color: rgb(0, 0, 0); /* Color del enlace */
+    text-decoration: none; /* Eliminar subrayado */
+    }
+
+ /* Estilos para la lista de imágenes */
+.image-list {
+    list-style-type: none;
+    margin: 55px;;
+    padding: 0;
+    display: flex;
+    justify-content: space-between; /* Distribuir imágenes de forma equitativa */
+}
+
+.image-list li {
+    flex: 1;
+    margin-right: 10px; /* Espacio entre las imágenes */
+}
+
+.image-list img {
+    width: 75%; /* Ajustar el tamaño de la imagen al contenedor */
+    height: 85%; /* Mantener la proporción de aspecto */
+    display: block; /* Asegurar que las imágenes se comporten como bloques */
+}
+
