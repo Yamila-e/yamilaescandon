@@ -46,10 +46,6 @@ p{
 .circulo:hover {
     transform: scale(1.4); /* Aumenta el tamaño al pasar el ratón */
 }
-a {
-    color: rgb(0, 0, 0); /* Color del enlace */
-    text-decoration: none; /* Eliminar subrayado */
-    }
 
  /* Estilos para la lista de imágenes */
 .image-list {
@@ -70,4 +66,15 @@ a {
     height: 85%; /* Mantener la proporción de aspecto */
     display: block; /* Asegurar que las imágenes se comporten como bloques */
 }
-
+.instagram-icon {
+    font-size: 1.5rem; /* Cambia el tamaño del ícono */
+    color: #E1306C;  /* Cambia el color del ícono a un tono de rosa típico de Instagram */
+}
+.bi-linkedin {
+    font-size: 2rem; /* Cambia el tamaño del ícono */
+    color: #4b32c5;
+}
+.bi-facebook {
+    font-size: 2rem; /* Cambia el tamaño del ícono */
+    color: #002efa;
+}
