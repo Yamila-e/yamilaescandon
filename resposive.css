@@ -1,0 +1,26 @@
+/* Media Query para pantallas medianas (tablets y teléfonos) */
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .header {
+        padding: 15%;
+    }
+}
+
+/* Media Query para pantallas grandes (incluye iPhone 15 Pro Max) */
+@media only screen and (min-width: 414px) {
+    .container {
+        width: 90%;
+    }
+
+    .header {
+        padding: 15%;
+    }
+}
+@media (max-width: 768px) {
+    .image-list img {
+        max-width: 80%; /* Reduce el tamaño de las imágenes en pantallas más pequeñas */
+    }
+}
